@@ -54,7 +54,7 @@ let rightMovie;
 const onMovieSelect = async (movie, summaryElement, side) => {
   const response = await axios.get(' https://cors-anywhere.herokuapp.com/http://www.omdbapi.com/', {
     params: {
-      apikey: 'd9835cc5',
+      apikey: '93d5b08c',
       i: movie.imdbID
     }
   });
